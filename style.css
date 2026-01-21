@@ -1,31 +1,4 @@
-header {
-  position: sticky;
-  top: 0;
-  background: white;
-  border-bottom: 1px solid #e6e6e6;
-  z-index: 10;
-}
-
-.nav {
-  display: flex; /* Use: makes logo + links align in one row */
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin-left: 14px;
-  font-weight: 600;
-}
-
-nav a:hover {
-  color: #0066ff;
-}
-
-
-
+/* For Entire Body (High level) */
 * {
     margin: 0;
     padding: 0;
@@ -130,6 +103,8 @@ section h2 {
     color: #444;
 }
 
+/* Education Section */
+
 .edu-item {
     margin-bottom: 14px;
 }
@@ -162,6 +137,8 @@ textarea {
     min-height: 120px;
     resize: vertical;
 }
+
+/* For responsiveness */
 
 @media (max-width: 900px) {
   #home h1 {
