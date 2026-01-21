@@ -14,24 +14,27 @@ FEATURES
 
 TECH STACK
 ---
- HTML5
+- HTML5
 - CSS3
 
 PROJECT STRUCTURE
 ---
 samatrix_interview_assessment/
 |-- assets/
-    |-- hackathon_certificate.jpeg
+|   |-- hackathon_certificate.jpeg
+|
 |-- screenshots/
-    |-- on_mobile_device/
-        |-- ss_1.jpeg
-        |-- ss_2.jpeg
-        |-- ss_3.jpeg
-    |-- on_pc/
-        |-- ss_1.png
-        |-- ss_2.png
-        |-- ss_3.png
-        |-- ss_4.png
+|   |-- on_mobile_device/
+|   |   |-- ss_1.jpeg
+|   |   |-- ss_2.jpeg
+|   |   |-- ss_3.jpeg
+|   |
+|   |-- on_pc/
+|       |-- ss_1.png
+|       |-- ss_2.png
+|       |-- ss_3.png
+|       |-- ss_4.png
+|
 |-- .gitignore
 |-- index.html
 |-- readme.md
