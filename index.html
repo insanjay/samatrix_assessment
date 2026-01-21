@@ -13,21 +13,21 @@
         <p>A Hybrid developer with hands-on experience working on end-to-end website development using python and AI integration</p>
 
         <div class="buttons">
-            <a href="https://github.com/insanjay">Github</a>
-            <a href="https://www.linkedin.com/in/insanjay">Linkedin</a>
-            <a href="insanjay.work@gmail.com">Email</a>
+            <a class = "btn" href="https://github.com/insanjay">Github</a>
+            <a class = "btn" href="https://www.linkedin.com/in/insanjay">Linkedin</a>
+            <a class = "btn primary" href="insanjay.work@gmail.com">Email</a>
         </div>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Python Devloper with hands-on experience working on end-to-end ML based website and backend</p>
+        <p>Python Devloper with hands-on experience working on end-to-end ML based website and backend. I have learning mindset.</p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
 
-        <div class="skills-grid">
+        <div class="grid-3">
 
             <div class="card">
                 <h3>Languages & Frameworks</h3>
@@ -40,18 +40,14 @@
                 </ul>
             </div>
 
-            <div>
-
-            </div>
-
         </div>
 
     </section>
 
-    <section id="project">
+    <section id="projects">
         <h2>Projects</h2>
 
-        <div class="project card">
+        <div class="project-card">
             <h3>DiabetaPredict</h3>
             <p>AI-powered Diabetic Risk Assessment Platform</p>
 
@@ -64,8 +60,8 @@
             </ul>
 
             <div class="buttons">
-                <a href="">Project Link</a>
-                <a href="">Gitub Repo</a>
+                <a class="btn" href="https://heartsafev3.streamlit.app/">Project Link</a>
+                <a class="btn" href="https://github.com/insanjay/diabetes_prediction">Gitub Repo</a>
             </div>
 
         </div>
@@ -91,12 +87,14 @@
 
     <section id="achievements">
         <h2>Certifications & Achievements</h2>
-
+        <div class="buttons">
         <ul>
-            <li>Data Science</li>
-            <li>Python</li>
-            <li>Hackathon (UpGrade at MUIT)</li>
+            <li><a class="btn" href="https://verify.netcredential.com/roy8OLOPbf">Cryptography and Network Security</a></li>
+            <li><a class="btn" href="https://www.udemy.com/certificate/UC-e0cfaca3-8e20-4f5e-bb9b-ca518cdbed31/">Data Science</a></li>
+            <li><a class="btn" href="https://freecodecamp.org/certification/fcc8bf6ce4c-41f7-4902-8705-20005ad222ef/scientific-computing-with-python-v7">Python</a></li>
+            <li><a class="btn" href="/assets/hackathon_certificate.jpeg">Hackathon (UpGrade at MUIT)</a></li>
         </ul>
+        </div>
 
     </section>
 
@@ -109,6 +107,24 @@
         <a href="https://github.com/insanjay">Github</a>
         <a href="https://www.linkedin.com/in/insanjay">Linkedin</a>
     </section>
+
+
+    <form id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+
+        <button class="btn primary" type="submit">Send Message</button>
+        <button class="btn" type="reset">Clear</button>
+
+        <p id="formStatus"></p>
+    </form> 
+
 
 </body>
 </html>
