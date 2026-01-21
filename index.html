@@ -49,7 +49,7 @@
     <section id="projects">
         <h2>Projects</h2>
 
-        <div class="project-card">
+        <div class="card">
             <h3>DiabetaPredict</h3>
             <p>AI-powered Diabetic Risk Assessment Platform</p>
 
@@ -72,59 +72,65 @@
 
     <section id="education">
         <h2>Education</h2>
+        <div class="card">
+            <div class="edu-item">
+                <h3>BCA (Pursuing)</h3>
+                <p>Maharishi University of Information Technology, Noida</p>
+                <span>2023 - 2026</span>
+            </div>
 
-        <div class="edu-item">
-            <h3>BCA (Pursuing)</h3>
-            <p>Maharishi University of Information Technology, Noida</p>
-            <span>2023 - 2026</span>
+            <div class="edu-item">
+                <h3>CBSE Senior Secondary (12th)</h3>
+                <p>D.S.R Modern School</p>
+                <span>2021-2023</span>
+            </div>
         </div>
-
-        <div class="edu-item">
-            <h3>CBSE Senior Secondary (12th)</h3>
-            <p>D.S.R Modern School</p>
-            <span>2021-2023</span>
-        </div>
-
     </section>
 
     <section id="achievements">
         <h2>Certifications & Achievements</h2>
-        <div class="buttons">
-        <ul>
-            <li><a class="btn" href="https://verify.netcredential.com/roy8OLOPbf">Cryptography and Network Security</a></li>
-            <li><a class="btn" href="https://www.udemy.com/certificate/UC-e0cfaca3-8e20-4f5e-bb9b-ca518cdbed31/">Data Science</a></li>
-            <li><a class="btn" href="https://freecodecamp.org/certification/fcc8bf6ce4c-41f7-4902-8705-20005ad222ef/scientific-computing-with-python-v7">Python</a></li>
-            <li><a class="btn" href="/assets/hackathon_certificate.jpeg">Hackathon (UpGrade at MUIT)</a></li>
-        </ul>
+        <div class="card">
+            <div class="buttons">
+            <ul>
+                <li><a class="btn" href="https://verify.netcredential.com/roy8OLOPbf">Cryptography and Network Security</a></li>
+                <li><a class="btn" href="https://www.udemy.com/certificate/UC-e0cfaca3-8e20-4f5e-bb9b-ca518cdbed31/">Data Science</a></li>
+                <li><a class="btn" href="https://freecodecamp.org/certification/fcc8bf6ce4c-41f7-4902-8705-20005ad222ef/scientific-computing-with-python-v7">Python</a></li>
+                <li><a class="btn" href="/assets/hackathon_certificate.jpeg">Hackathon (UpGrade at MUIT)</a></li>
+            </ul>
+            </div>
         </div>
 
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
+        <div class="card">
+            <p>Email: <a href="mailto:insanjay.work@gmail.com">insanjay.work@mail.com</a></p>
+            <p>Phone: +91 XXXXXXXXX</p>
 
-        <p>Email: <a href="mailto:insanjay.work@gmail.com">insanjay.work@mail.com</a></p>
-        <p>Phone: +91 XXXXXXXXX</p>
-
-        <p>Github: <a href="https://github.com/insanjay">https://github.com/insanjay</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/insanjay">https://www.linkedin.com/in/insanjay</a></p>
-    </section>
+            <p>Github: <a href="https://github.com/insanjay">https://github.com/insanjay</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/insanjay">https://www.linkedin.com/in/insanjay</a></p>
+        </div>
+        </section>
 
 
     <form id="form">
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="Your name" required />
+        <div class="card">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
 
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+            
+            <div class="buttons">
+                <a class="btn primary" href="#">Submit</a>
+                <a class="btn" href="#">Clear</a>
+            </div>
 
-        <button class="btn primary" type="submit">Send Message</button>
-        <button class="btn" type="reset">Clear</button>
-
-        <p id="formStatus"></p>
+        </div>
     </form> 
 
 
